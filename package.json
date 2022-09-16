@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "14.17.5"
+  },
   "name": "myportfolio",
   "version": "1.0.0",
   "description": "",
@@ -52,6 +55,7 @@
     "estraverse": "^4.3.0",
     "esutils": "^2.0.3",
     "etag": "^1.8.1",
+
     "express": "^4.18.1",
     "fast-levenshtein": "^2.0.6",
     "file-uri-to-path": "^2.0.0",
@@ -116,6 +120,7 @@
     "netmask": "^2.0.2",
     "nodemailer": "^6.7.8",
     "nodemon": "^2.0.19",
+    'node':"",
     "nopt": "^1.0.10",
     "normalize-path": "^3.0.0",
     "object-inspect": "^1.12.2",
