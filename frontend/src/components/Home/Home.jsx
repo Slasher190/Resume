@@ -22,7 +22,7 @@ import { Link } from "react-router-dom";
 import { MouseOutlined } from "@mui/icons-material";
 
 const Home = ({ timelines, youtubes, skills }) => {
-  console.log(window.innerWidth + "hello world");
+  // console.log(window.innerWidth + "hello world");
   useEffect(() => {
     const textureLoader = new THREE.TextureLoader();
 
