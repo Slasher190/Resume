@@ -39,16 +39,16 @@ function App() {
               path="/"
               element={
                 <Home
-                  youtubes={user.youtube}
-                  timelines={user.timeline}
-                  skills={user.skills}
+                  youtubes={user ? user.youtube : ""}
+                  timelines={user ? user.timeline : ""}
+                  skills={user ? user.skills : ""}
                 />
               }
             />
-            <Route path="/about" element={<About about={user.about} />} />
+            <Route path="/about" element={<About about={user ? user.about : ""} />} />
             <Route
               path="/projects"
-              element={<Projects projects={user.projects} />}
+              element={<Projects projects={user ? user.projects : ""} />}
             />
             <Route path="/contact" element={<Contact />} />
             <Route

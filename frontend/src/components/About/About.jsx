@@ -4,6 +4,7 @@ import "./About.css";
 
 const About = ({ about }) => {
   return (
+    about && 
     <div className="about">
       <div className="aboutContainer">
         <Typography>{about.quote}</Typography>

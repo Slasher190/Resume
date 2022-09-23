@@ -1,0 +1,80 @@
+{
+    "name": "Sudhi Ranjan Gupta",
+    "email": "sudhigupta190@gmail.com",
+    "password": "8821Sudhi@",
+  
+    "timeline": [
+      {
+        "title": "Project",
+        "description": "MERN Stack"
+      }
+    ],
+  
+    "skills": {
+      "image1": {
+        "public_id": "hiteshi_obzk1c",
+        "url": "https://res.cloudinary.com/slasher190/image/upload/v1663515676/portfolio/hiteshi_obzk1c.jpg"
+      },
+  
+      "image2": {
+        "public_id": "950021_vxaipa",
+        "url": "https://res.cloudinary.com/slasher190/image/upload/v1663515641/portfolio/950021_vxaipa.jpg"
+      },
+      "image3": {
+        "public_id": "WhatsApp_Image_2022-07-03_at_1.56.15_PM_ns8ajo",
+        "url": "https://res.cloudinary.com/slasher190/image/upload/v1663515630/portfolio/WhatsApp_Image_2022-07-03_at_1.56.15_PM_ns8ajo.jpg"
+      },
+      "image4": {
+        "public_id": "serverfail_zdiim3",
+        "url": "https://res.cloudinary.com/slasher190/image/upload/v1663515629/portfolio/serverfail_zdiim3.jpg"
+      },
+      "image5": {
+        "public_id": "top_background_uugsik",
+        "url": "https://res.cloudinary.com/slasher190/image/upload/v1663515625/portfolio/top_background_uugsik.jpg"
+      },
+      "image6": {
+        "public_id": "smoke-and-flame-photo-27_y0jory",
+        "url": "https://res.cloudinary.com/slasher190/image/upload/v1663515622/portfolio/smoke-and-flame-photo-27_y0jory.png"
+      }
+    },
+  
+    "youtube": [
+      {
+        "url": "https://www.youtube.com/watch?v=6d3cxVnfeOc",
+        "title": "History of Kung fu",
+        "image": {
+          "public_id": "logo_l9wn60",
+          "url": "https://res.cloudinary.com/slasher190/image/upload/v1663515615/portfolio/logo_l9wn60.jpg"
+        }
+      }
+    ],
+  
+    "projects": [
+      {
+        "url": "https://github.com/Slasher190/WhatsApp_Automation",
+        "title": "Whatsapp Fetcher",
+        "image": {
+          "public_id": "WhatsApp_Image_2022-07-03_at_1.56.15_PM_f1wbbh",
+          "url": "https://res.cloudinary.com/slasher190/image/upload/v1663516242/portfolio/WhatsApp_Image_2022-07-03_at_1.56.15_PM_f1wbbh.jpg"
+        },
+        "description": "Based on selenium",
+        "techStack": "Python"
+      }
+    ],
+  
+    "about": {
+      "name": "Sudhi Ranjan Gupta",
+      "title": "Full Stack Developer",
+      "subtitle": "Data Scientist",
+      "description": "Just believe",
+      "quote": "Never Giveup",
+      "avatar": {
+        "public_id": "Anonymous-hat-wallpaper-HD_t71kgm",
+        "url": "https://res.cloudinary.com/slasher190/image/upload/v1663515216/portfolio/Anonymous-hat-wallpaper-HD_t71kgm.png"
+      }
+    }
+  }
+
+
+
+

@@ -21,7 +21,7 @@ const TimeLine = ({ timelines = [] }) => {
               variant="body2"
               color="text.secondary"
             >
-              {item.date.toString().split("T")[0]}
+              {/* {item.date.toString().split("T")[0]} */}
             </TimelineOppositeContent>
 
             <TimelineSeparator>

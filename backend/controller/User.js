@@ -3,6 +3,12 @@ import jwt from "jsonwebtoken";
 import { sendMail } from "../middlewares/sendMail.js";
 import cloudinary from "cloudinary";
 
+// cloudinary.v2.config({
+//     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+//     api_key: process.env.CLOUDINARY_CLOUD_API_KEY,
+//     api_secret: process.env.CLOUDINARY_CLOUD_API_SECRET,
+// });
+
 export const login = async (req, res) => {
     try {
         const { email, password } = req.body;
@@ -82,6 +88,7 @@ export const myProfile = async (req, res) => {
             user,
         });
     } catch (error) {
+        console.log(error);
         return res.status(400).json({
             success: false,
             message: error.message,
@@ -111,7 +118,9 @@ export const contact = async (req, res) => {
 };
 
 export const updateUser = async (req, res) => {
+
     try {
+        console.log(req.body, " updated");
         const user = await User.findById(req.user._id);
 
         const { name, email, password, skills, about } = req.body;
@@ -220,16 +229,20 @@ export const updateUser = async (req, res) => {
             }
 
             if (about.avatar) {
-                // await cloudinary.v2.uploader.destroy(user.about.avatar.public_id);
+                try {
+                    await cloudinary.v2.uploader.destroy(user.about.avatar.public_id);
+                    const myCloud = await cloudinary.v2.uploader.upload(about.avatar, {
+                        folder: "portfolio",
+                    });
+    
+                    user.about.avatar = {
+                        public_id: myCloud.public_id,
+                        url: myCloud.secure_url,
+                    };
+                } catch (error) {
+                    console.log("-->",error);
 
-                const myCloud = await cloudinary.v2.uploader.upload(about.avatar, {
-                    folder: "portfolio",
-                });
-
-                user.about.avatar = {
-                    public_id: myCloud.public_id,
-                    url: myCloud.secure_url,
-                };
+                }
             }
         }
 

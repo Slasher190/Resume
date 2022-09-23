@@ -104,7 +104,7 @@ const Timeline = () => {
                   {item.description}
                 </Typography>
                 <Typography variant="body1" style={{ fontWeight: 600 }}>
-                  {item.date.toString().split("T")[0]}
+                  {/* {item.date.toString().split("T")[0]} */}
                 </Typography>
 
                 <Button
