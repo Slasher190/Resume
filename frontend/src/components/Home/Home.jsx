@@ -130,12 +130,12 @@ const Home = ({ timelines, youtubes, skills }) => {
           <p>D</p>
           <p>H</p>
           <p>I</p>
-          <p>R</p>
+          {/* <p>R</p>
           <p>A</p>
           <p>N</p>
           <p>J</p>
           <p>A</p>
-          <p>N</p>
+          <p>N</p> */}
         </Typography>
 
         <div className="homeCanvasBox">
