@@ -142,7 +142,7 @@ const Home = ({ timelines, youtubes, skills }) => {
           <Typography variant="h2">DESIGNER</Typography>
           <Typography variant="h2">DEVELOPER</Typography>
           <Typography variant="h2">TEACHER</Typography>
-          <Typography variant="h2">CONTENT CREATOR</Typography>
+          <Typography variant="h2">SAMPLE TEST</Typography>
         </div>
 
         <Link to="/projects">VIEW WORK</Link>
