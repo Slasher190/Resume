@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -23,10 +23,10 @@ const Footer = () => {
         <a href="https://github.com/Slasher190" target="black">
           <BsGithub />
         </a>
-        <a href="" target="black">
-          <BsYoutube />
+        <a href="https://www.facebook.com/Sudhigupta190" target="black">
+          <BsFacebook />
         </a>
-        <a href="" target="black">
+        <a href="https://www.instagram.com/sudhigupta190/" target="black">
           <BsInstagram />
         </a>
         <a href="https://www.linkedin.com/in/sudhi-ranjan-gupta-6a557112b/" target="black">

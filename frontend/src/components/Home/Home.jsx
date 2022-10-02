@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 import * as THREE from "three";
-import moonImage from "../../Images/moon.jpg";
-import venusImage from "../../Images/venus.jpg";
-import spaceImage from "../../Images/space.jpg";
+// import moonImage from "../../Images/moon.jpg";
+// import venusImage from "../../Images/venus.jpg";
+// import spaceImage from "../../Images/space.jpg";
 import { Typography } from "@mui/material";
 import TimeLine from "../TimeLine/TimeLine";
 import {
@@ -13,9 +13,10 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiExpress,
-  SiCss3,
-  SiHtml5,
-  SiThreedotjs,
+  SiPython,
+  SiTensorflow,
+  SiOpencv,
+  SiMysql,
 } from "react-icons/si";
 import YoutubeCard from "../YoutubeCard/YoutubeCard";
 import { Link } from "react-router-dom";
@@ -139,10 +140,10 @@ const Home = ({ timelines, youtubes, skills }) => {
         </Typography>
 
         <div className="homeCanvasBox">
-          <Typography variant="h2">DESIGNER</Typography>
+          <Typography variant="h2">AI/ML ENGINEER</Typography>
+          <Typography variant="h2">FULL STACK</Typography>
           <Typography variant="h2">DEVELOPER</Typography>
-          <Typography variant="h2">TEACHER</Typography>
-          <Typography variant="h2">SAMPLE TEST</Typography>
+          <Typography variant="h2">MENTOR</Typography>
         </div>
 
         <Link to="/projects">VIEW WORK</Link>
@@ -190,14 +191,14 @@ const Home = ({ timelines, youtubes, skills }) => {
 
         <div className="homeskillsBox" id="homeskillsBox">
           <SiCplusplus />
-          <SiHtml5 />
-          <SiCss3 />
-          <SiJavascript />
+          <SiPython />
+          <SiTensorflow />
+          <SiOpencv />
           <SiMongodb />
-          <SiExpress />
           <SiReact />
           <SiNodedotjs />
-          <SiThreedotjs />
+          <SiMysql />
+          <SiExpress />
         </div>
       </div>
 
